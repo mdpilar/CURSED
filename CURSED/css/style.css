@@ -1,0 +1,205 @@
+/*selector universal*/
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F0E8;
+}
+
+*/
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header div{
+    background-color:#F1F0E8;
+    color: #96b6c5;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.25rem 0px;
+    font-size: small;
+    font-weight: bold;
+}
+
+header h2{
+    background-color:#F1F0E8;
+    color: #96b6c5;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.25rem 0px;
+    font-weight: bolder;
+}
+/* Resetear estilos por defecto de la lista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    background-color: #F1F0E8 ;
+    padding: 0.5rem 0px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #96b6c5;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.lista-horizontal {
+    display: flex;
+
+}
+
+.lista-horizontal li {
+    margin-right: 150px;
+}
+
+footer {
+    color: #96b6c5;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer p, form {
+    margin: 0;
+    font-weight: bold;
+}
+
+form label {
+    color: #96b6c5;
+    margin-right: 8px;
+}
+
+form input {
+    padding: 5px;
+    border-color: #96b6c5;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color:#96b6c5;
+    color: #F1F0E8;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contenedor-principal{
+    background-image: url("../assets/bordecarta.png") ;
+    width: 100%;
+    height: 40rem;
+    background-position: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-principal div{
+    padding: 40px;
+    color: #96b6c5;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+main section div h1 {
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+/* Contacto*/
+main {
+    background-image: url("../assets/serpientes.png") ;
+    width: 100%;
+    height: 40rem;
+    background-position: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactomain input{
+    display:flex ;
+    padding: 5px;
+    border-color: #96b6c5;
+
+}
+
+.contactomain {
+    gap: 15px;
+
+}
+
+/* Cuenta*/
+
+.cuentamain {
+    color: #96b6c5;
+    display: flex;
+
+}
+
+.cuentamain {
+    background-image: url("../assets/serpientes.png") ;
+    width: 100%;
+    height: 40rem;
+    background-position: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios-main {
+    color: #96b6c5;
+    display: flex;
+    gap: 30px;
+
+}
+
+.servicios-main button {
+    padding: 5px 10px;
+    background-color:#96b6c5;
+    color: #F1F0E8;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.servicios-main {
+    color: #96b6c5;
+    display: flex;
+    gap: 30px;
+
+}
+
+.acerca-main {
+    color: #96b6c5;
+}
